@@ -45,7 +45,7 @@ class Level(commands.Cog):
             max_width=650,
             height=40,
             percentage=percentage,
-            fill="#FF56B2",
+            fill="red",
             radius=20,
         )
         background.text((200, 40), str(member), font=poppins, color="white")
